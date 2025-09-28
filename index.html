@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>SI‑Vorsilben Trainer</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="app">
+<header>
+<h1>SI‑Vorsilben Trainer</h1>
+<p class="subtitle">Wähle eine Übung — jeweils 5 Fragen</p>
+</header>
+
+
+<nav class="menu">
+<button data-mode="si-prefix">1. SI‑Vorsilben lernen</button>
+<button data-mode="to-si">2. Einfache Zahl → SI‑Vorsilbe</button>
+<button data-mode="to-expo">3. Zahl → Zehnerpotenz </button>
+<button data-mode="to-si-expert">4. Expert </button>
+
+</nav>
+
+
+<section class="card">
+<div class="question-area" id="questionArea">
+<div id="questionText" class="question-text">Wähle zuerst eine Übung</div>
+</div>
+
+
+<div class="controls">
+<button id="showAnswerBtn" class="primary" disabled>Lösung anzeigen</button>
+<div id="nextHint" class="next-hint">(Nach Ansicht: irgendwo unten tippen für nächste Frage)</div>
+</div>
+
+
+<div id="answerArea" class="answer-area" aria-live="polite"></div>
+
+
+<div id="progress" class="progress"></div>
+</section>
+
+
+<footer>
+<small>Entwickelt für Handy &amp; Tablet • Offline verwendbar</small>
+</footer>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
