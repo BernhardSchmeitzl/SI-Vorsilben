@@ -3,31 +3,21 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Offizielle SI‑Präfixe (inkl. 2022 Ergänzungen)
   const prefixes = [
-    {name:'quetta', sym:'Q', exp:30},
-    {name:'ronna', sym:'R', exp:27},
-    {name:'yotta', sym:'Y', exp:24},
-    {name:'zetta', sym:'Z', exp:21},
+    
     {name:'exa', sym:'E', exp:18},
     {name:'peta', sym:'P', exp:15},
     {name:'tera', sym:'T', exp:12},
     {name:'giga', sym:'G', exp:9},
     {name:'mega', sym:'M', exp:6},
     {name:'kilo', sym:'k', exp:3},
-    {name:'hekto', sym:'h', exp:2},
-    {name:'deka', sym:'da', exp:1},
     {name:'', sym:'(ohne Symbol)', exp:0}, // kein Präfix
-    {name:'dezi', sym:'d', exp:-1},
-    {name:'zenti', sym:'c', exp:-2},
     {name:'milli', sym:'m', exp:-3},
     {name:'mikro', sym:'µ', exp:-6},
     {name:'nano', sym:'n', exp:-9},
     {name:'piko', sym:'p', exp:-12},
     {name:'femto', sym:'f', exp:-15},
     {name:'atto', sym:'a', exp:-18},
-    {name:'zepto', sym:'z', exp:-21},
-    {name:'yocto', sym:'y', exp:-24},
-    {name:'ronto', sym:'r', exp:-27},
-    {name:'quecto', sym:'q', exp:-30}
+    
   ];
 
   let mode = null;
@@ -257,3 +247,4 @@ function genNumberToSiExpert() {
 
 
 }); // Ende DOMContentLoaded
+
